@@ -1,0 +1,70 @@
+/* Wattpad inspired styling */
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    
+}
+
+/* Chapters color */
+.Chapter{
+    color: orangered;
+}
+
+/* Border color (hr) */
+ul {
+    border-bottom: 1px solid #FFE5CF; 
+}
+
+/* Heading (Specifically h2) color */
+h2 {
+    text-align: center;
+    color: #050C9C
+}
+
+/* This is from About page */
+.About {
+    text-align: left;
+}
+
+/* This is from Contact page */
+.Contact {
+    text-align: left;
+}
+
+/* This is from I-STORIES page */
+.I-STORIES {
+    text-align: left;
+}
+
+.Index {
+    text-align: left;
+}
+
+/* This is the index page WELCOME h2 */
+.WELCOME {
+    color: red;
+}
+
+h2[id="WELCOME"]{
+    color: #4379F2;
+}
+.Description {
+    text-align: center;
+    font-size: 105%;
+}
+
+.Creator {
+    text-align: center;
+    
+}
+
+/* This is a universal sector */
+* {
+    background-color: #FFE5CF;
+    font-style: italic;
+}
+
+/* This is the days/months/seconds/ etc. color in the TSBU story */
+.TSBU {
+    color: #654520;
+}
