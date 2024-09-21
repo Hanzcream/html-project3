@@ -58,6 +58,16 @@ h2[id="WELCOME"]{
     
 }
 
+.image-container {
+    text-align: center; /* Centers the image horizontally */
+}
+
+img {
+    display: inline-block; /* Keeps the image inline with other elements */
+    max-width: 100%; /* Ensures the image scales properly */
+    height: auto; /* Maintains aspect ratio */
+}
+
 /* This is a universal sector */
 * {
     background-color: #FFE5CF;
