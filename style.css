@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Wattpad inspired styling */
 
 /* Border color (hr) */
@@ -404,3 +405,178 @@ h3 {
 .description a:hover {
     color: #3498db;
 }
+=======
+/* Wattpad inspired styling */
+
+/* Chapters color */
+.Chapter{
+    color: orangered;
+}
+
+/* Border color (hr) */
+ul {
+    border-bottom: 1px solid #FFE5CF; 
+}
+
+/* Heading (Specifically h2) color */
+h2 {
+    text-align: center;
+    color: #2f4f4f;
+    text-transform: capitalize;
+}
+
+a{
+    color: #8b4513;
+}
+
+h2[id="WELCOME"]{
+    color: #4379F2;
+    text-transform: capitalize;
+}
+
+h3 {
+    text-transform: capitalize;
+}
+
+/* This is from About page */
+.About {
+    text-align: left;
+}
+
+/* This is from Contact page */
+.Contact {
+    text-align: left;
+}
+
+/* This is from I-STORIES page */
+.I-STORIES {
+    text-align: left;
+}
+
+.Index {
+    text-align: left;
+}
+
+/* This is the index page WELCOME h2 */
+.WELCOME {
+    color: red;
+}
+
+.Description {
+    text-align: center;
+    font-size: 105%;
+}
+
+.Creator {
+    text-align: center;
+    
+}
+
+
+img {
+    display: inline-block; /* Keeps the image inline with other elements */
+    max-width: 100%; /* Ensures the image scales properly */
+    height: auto; /* Maintains aspect ratio */
+    width: 200px !important;
+}
+/* This is a universal sector */
+* {
+    background-color: #f7e6f3;
+    font-style: italic;
+}
+
+/* This is the days/months/seconds/ etc. color in the TSBU story */
+.TSBU {
+    color: #654520;
+}
+/* Style for the div background image */
+.space-image {
+    width: 200px; /* Set width as needed */
+    height: 200px; /* Set height as needed */
+    background-image: url('/images/462052543_529388456381555_6430566450330794278_n.png'); /* Set original image */
+    background-size: cover;
+    position: relative;
+}
+
+/* Style for the img inside the div */
+.hoverable-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Hover effect to change the image source using CSS */
+.hoverable-image:hover {
+    content: url('https://i.pinimg.com/736x/d4/36/97/d43697e4a84e49da6fc7fcdf151bf6e6.jpg'); 
+    transform: scale(1); /* Scale slightly for hover effect */
+    height:48%;
+    position: relative; /* Keep position context to avoid layout shift */
+}
+
+.hover2-image:hover {
+    content: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRllUAEPYCtsoUOlZTN25HAX0iWaJYIUHLpEQ&s');
+    transform: scale(1); /* Scale slightly for hover effect */
+    height:59%;
+    position: relative; /* Keep position context to avoid layout shift */
+}
+
+.image-row {
+    display: flex; /* Use flexbox to align images in a row */
+    justify-content: space-around; /* Distribute space evenly */
+    margin: 20px 0; /* Add some vertical spacing */
+    
+}
+
+.hover2-image{
+    margin-left: 50px;
+}
+
+
+/* Prevent the text from disappearing on hover */
+.image-container {
+    position: relative; /* Maintain positioning context */
+    display: inline-block;
+    text-align: center;
+}
+
+figcaption.description {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    font-style: italic;
+    line-height: 1.5;
+    z-index: 1; /* Ensure the figcaption stays above other content */
+}
+
+/* Hover effect should not impact the caption */
+figure:hover .description {
+    visibility: visible; /* Make sure it's always visible */
+}
+
+
+.hoverable-image {
+    width: 100%; /* Make images responsive by default */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the container without stretching */
+    display: inline-block;
+    justify-content: space-between;  
+}
+
+/* gif size */
+.gif{
+    width: 100% !important;
+}
+
+.istories-images{
+        display: inline-block;
+        justify-content: space-between;        
+}
+
+.text-firstchap{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 600;
+    font-style: normal;
+}
+
+>>>>>>> ec381eb4575df053d391784a596669606f915f6f
