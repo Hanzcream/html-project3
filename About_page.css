@@ -1,0 +1,260 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333333; /* Dark grey text for contrast */
+    background-color: #F2F2F2; /* Light grey background */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #6E6FA8; /* Dark purple color for navigation */
+    padding: 15px 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #FFFFFF; /* White text for nav links */
+    margin: 0 15px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #CCCCFF; /* Lighter shade on hover */
+}
+
+/* Main Content Container */
+.ABOUTPAGE {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #FFFFFF; /* White background for main content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.ABOUTPAGE:hover {
+    transform: scale(1.02); /* Slight zoom effect on hover */
+}
+
+/* Headings and Text */
+h2, h3 {
+    color: #4A4A4A; /* Dark grey for headings */
+}
+
+h2 a {
+    color: #6E6FA8; /* Purple for the return link */
+    text-decoration: none;
+}
+
+h2 a:hover {
+    color: #5A5B8C; /* Slightly darker purple on hover */
+}
+
+p, ul, ol {
+    color: #555555; /* Medium grey for paragraph and list text */
+}
+
+/* Highlighted Text */
+.highlight {
+    background-color: #FFEDCC; /* Light yellow background for emphasis */
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* Image Styling */
+.gif {
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Shadow effect for the image */
+}
+
+/* Button Styling */
+.action-button {
+    background-color: #6E6FA8; /* Button color */
+    color: #FFFFFF; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition for background color */
+    margin: 20px 0;
+}
+
+.action-button:hover {
+    background-color: #5A5B8C; /* Darker purple on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+/* List Styling */
+ul, ol {
+    margin: 10px 0 20px 20px;
+}
+
+ul li, ol li {
+    color: #555555; /* Medium grey for list items */
+}
+
+/* Link Styling */
+a {
+    color: #6E6FA8; /* Purple for general links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #5A5B8C; /* Darker purple on hover */
+}
+
+/* Custom Link Styling */
+.blue-link {
+    color: #6E6FA8; /* Purple color for special link */
+}
+
+.blue-link:hover {
+    color: #5A5B8C; /* Darker purple on hover */
+}
+
+/* Clickable Text Styling in ABOUTPAGE */
+.clickable-text {
+    color: #6E6FA8; /* Purple color for clickable text */
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    text-decoration: underline; /* Underline to indicate it's clickable */
+}
+
+.clickable-text:hover {
+    color: #5A5B8C; /* Darker purple on hover */
+    text-decoration: none; /* Remove underline on hover for effect */
+}
+
+/* Page Divider */
+hr {
+    border: 1px solid #CCCCCC; /* Light grey for horizontal lines */
+    margin: 20px 0;
+}
+
+/* Welcome Text Styling */
+h1 {
+    color: #FFFFFF; /* White text for welcome message */
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Shadow for depth */
+}
+
+/* Add CSS styles for buttons and hover effects */
+.buttons-container {
+ margin-top: 20px;
+ }
+
+.animated-button {
+background-color: #57aaf3;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+transition: transform 0.2s; /* Smooth scaling */
+cursor: pointer;
+border-radius: 5px; /* Rounded corners */
+}
+
+.animated-button:hover {
+transform: scale(1.1); /* Scale up on hover */
+}
+
+.clickable-text {
+color: #007BFF; /* Link color */
+text-decoration: none; /* Remove underline */
+}
+
+.clickable-text:hover {
+text-decoration: underline; /* Underline on hover */
+}
+
+/* Catchy Intro Paragraph */
+.catchy-intro {
+    font-size: 1.2em; /* Slightly larger font for emphasis */
+    font-weight: bold; /* Make it bold */
+    color: #FFFFFF; /* White color for better contrast */
+    background: linear-gradient(135deg, rgba(110, 111, 168, 0.8), rgba(168, 168, 216, 0.8)); /* Transparent gradient for better readability */
+    padding: 15px; /* Padding for better spacing */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center; /* Center align the text */
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transitions */
+    position: relative; /* Positioning for the pseudo-element */
+}
+
+/* Add a hover effect */
+.catchy-intro:hover {
+    transform: scale(1.05); /* Slightly enlarge the paragraph on hover */
+    background-color: rgba(168, 168, 216, 0.9); /* Change background on hover */
+}
+
+/* Optional: Add a decorative effect */
+.catchy-intro:before {
+    content: '✨'; /* Add a sparkle before the text */
+    position: absolute; /* Position it relative to the parent */
+    left: -20px; /* Move it slightly to the left */
+    top: 0; /* Align it to the top */
+    font-size: 1.5em; /* Size for the sparkle */
+    animation: sparkle 1.5s infinite; /* Add animation */
+}
+
+/* Keyframes for sparkle effect */
+@keyframes sparkle {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+    100% { transform: translateY(0); }
+}
+
+/* Button Style */
+.smile-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6e60ef; /* purple background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1.2em; /* Larger text */
+    transition: background-color 0.3s ease; /* Transition effect */
+    text-align: center; /* Center the text */
+}
+
+/* Button hover effect */
+.smile-button:hover {
+    background-color: #57aaf3; /* blue on hover */
+}
+
+/* Hidden checkbox */
+.toggle-display {
+    display: none; /* Hide the checkbox */
+}
+
+/* Story container style */
+.story-container {
+    display: none; /* Initially hidden */
+    margin-top: 15px; /* Space above the paragraph */
+    padding: 15px;
+    background: linear-gradient(135deg, rgba(209, 209, 255, 0.8), rgba(235, 163, 163, 0.8)); /* Background */
+    color: #FFFFFF; /* Text color */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Show the paragraph when checkbox is checked */
+.toggle-display:checked + .story-container {
+    display: block; /* Show the paragraph */
+}
+
+

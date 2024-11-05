@@ -1,0 +1,406 @@
+/* Wattpad inspired styling */
+
+/* Border color (hr) */
+ul {
+    border-bottom: 1px solid #FFE5CF; 
+}
+
+/* Heading (Specifically h2) color */
+h2 {
+    text-align: center;
+    color: #2f4f4f;
+    text-transform: capitalize;
+}
+
+
+a{
+    color: blue;
+}
+
+h2[id="WELCOME"]{
+    color: #4379F2;
+    text-transform: capitalize;
+}
+
+h3 {
+    text-transform: capitalize;
+}
+
+
+.blue-link {
+    color: blue;
+}
+
+/* This is the index page WELCOME h2 */
+.WELCOME {
+    color: red;
+}
+
+.Description {
+    text-align: center;
+    font-size: 105%;
+}
+
+.Creator {
+    text-align: center;
+    
+}
+
+
+img {
+    display: inline-block; /* Keeps the image inline with other elements */
+    max-width: 100%; /* Ensures the image scales properly */
+    height: auto; /* Maintains aspect ratio */
+    width: 200px !important;
+}
+ 
+
+/* Style for the div background image */
+.space-image {
+    width: 200px; /* Set width as needed */
+    height: 200px; /* Set height as needed */
+    background-image: url('/images/462052543_529388456381555_6430566450330794278_n.png'); /* Set original image */
+    background-size: cover;
+    position: relative;
+}
+
+/* Style for the img inside the div */
+.hoverable-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Hover effect to change the image source using CSS */
+.hoverable-image:hover {
+    content: url('https://i.ytimg.com/vi/FX9f3wfYGV4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC_rCsM1PdFJJIX4fmf7RrjosbTSQ'); 
+    transform: scale(1); /* Scale slightly for hover effect */
+    height:59% !important;
+    position: relative !important; /* Keep position context to avoid layout shift */
+}
+
+.hover2-image:hover {
+    content: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKsHrry_2jvr_r6z_mSLvrs42nYstJ8WW1jQ&s');
+    transform: scale(1); /* Scale slightly for hover effect */
+    height:59%;
+    position: relative; /* Keep position context to avoid layout shift */
+}
+
+.image-row {
+    display: flex; /* Use flexbox to align images in a row */
+    justify-content: space-around; /* Distribute space evenly */
+    margin: 20px 0; /* Add some vertical spacing */
+    
+}
+
+.hover2-image{
+    margin-left: 50px;
+}
+
+.hover3-image{
+    margin-left: 50px;
+}
+
+.hover3-image:hover {
+    content: url('https://www.shutterstock.com/image-photo/anime-artistic-image-pretty-cute-600w-2502442307.jpg');
+    transform: scale(1); /* Scale slightly for hover effect */
+    height:59%;
+    position: relative; /* Keep position context to avoid layout shift */
+}
+
+.hover4-image:hover {
+    content: url('https://easy-peasy.ai/cdn-cgi/image/quality=80,format=auto,width=700/https://fdczvxmwwjwpwbeeqcth.supabase.co/storage/v1/object/public/images/074abebc-58d0-4b37-86d6-2229406b6ed9/83f9e6f8-2007-45ac-bb45-8d048fcf23ab.png');
+    transform: scale(1); /* Scale slightly for hover effect */
+    height:59%;
+    position: relative; /* Keep position context to avoid layout shift */
+}
+.hover4-image{
+    margin-left: 50px;
+}
+
+.hover5-image:hover {
+    content: url('https://thumbs.dreamstime.com/b/unavailable-label-sign-round-stamp-band-ribbon-unavailable-label-sign-round-stamp-ribbon-band-196363475.jpg');
+    transform: scale(1); /* Scale slightly for hover effect */
+    height:59%;
+    position: relative; /* Keep position context to avoid layout shift */
+}
+.hover5-image{
+    margin-left: 50px;
+}
+
+.hover6-image:hover {
+    content: url('https://thumbs.dreamstime.com/b/unavailable-label-sign-round-stamp-band-ribbon-unavailable-label-sign-round-stamp-ribbon-band-196363475.jpg');
+    transform: scale(1); /* Scale slightly for hover effect */
+    height:59%;
+    position: relative; /* Keep position context to avoid layout shift */
+}
+.hover6-image{
+    margin-left: 50px;
+}
+
+
+/* Prevent the text from disappearing on hover */
+.image-container {
+    position: relative; /* Maintain positioning context */
+    display: inline-block;
+    text-align: center;
+}
+
+figcaption.description {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    font-style: italic;
+    line-height: 1.5;
+    z-index: 1; /* Ensure the figcaption stays above other content */
+}
+
+/* Hover effect should not impact the caption */
+figure:hover .description {
+    visibility: visible; /* Make sure it's always visible */
+}
+
+
+.hoverable-image {
+    width: 100% !important; /* Make images responsive by default */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover !important; /* Cover the container without stretching */
+    display: inline-block !important;
+    justify-content: space-between !important;  
+}
+
+/* gif size */
+.gif{
+    width: 100% !important;
+}
+
+.istories-images{
+        display: inline-block;
+        justify-content: space-between;        
+}
+
+.text-firstchap{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+
+/* profilepage */
+.profilepage {
+    background-color: #111;
+    margin: 0; 
+    padding: 0; 
+    height: 100%; 
+}
+.profilepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+.profilepage {
+    background-color: #111 !important; 
+    font-family: Arial, sans-serif !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 900px !important;
+    margin: 0 !important; 
+}
+.profile-card {
+    background-color: #1e1e1e !important; 
+    padding: 20px !important;
+    border-radius: 10px !important;
+    text-align: center !important;
+    width: 300px !important;
+}
+.profile-card img {
+    border-radius: 50% !important;
+    width: 100px !important;
+    height: 100px !important;
+}
+.profile-card h2 {
+    color: white !important;
+    margin: 10px 0 !important;
+}
+.profile-card p {
+    color: #7ed957 !important; 
+    margin: 5px 0 !important;
+}
+.profile-card .bio {
+    color: #bbb !important;
+    margin: 10px 0 !important;
+}
+.profile-card button {
+    background-color: #333 !important; 
+    color: white !important;
+    border: none !important;
+    padding: 10px !important;
+    margin: 5px 0 !important;
+    width: 100% !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    font-size: 14px !important;
+}
+.profile-card button:hover {
+    background-color: #444 !important; 
+}
+
+.return-home {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #7ed957; /* Same color as other text in your design */
+    font-size: 14px;
+    text-decoration: none;
+    background-color: #333; /* Button-like appearance */
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+.return-home:hover {
+    background-color: #444; /* Slightly darker on hover */
+}
+.return-home2 {
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    color: #7ed957; /* Same color as other text in your design */
+    font-size: 14px;
+    text-decoration: none;
+    background-color: #333; /* Button-like appearance */
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+.return-home2:hover {
+    background-color: #444; /* Slightly darker on hover */
+}
+.profilepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* I-STORIES PAGE */
+
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.STORYPAGE {
+    background-color: #FEF9F2;
+    color: #333;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Header Title */
+.I-STORIES {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.I-STORIES a {
+    text-decoration: none;
+    color: #2c3e50;
+    font-size: 1.5rem;
+}
+.description a {
+    font-size: 1.5rem;
+}
+
+hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 2px solid #2c3e50;
+}
+
+/* GIF Image */
+.gif {
+    display: block;
+    max-width: 100% !important;
+    height: auto !important;
+    margin: 20px auto !important;
+}
+
+/* Welcome Text */
+.text-center {
+    text-align: center !important;
+    font-size: 2.5rem !important;
+    color: #34495e;
+    margin: 20px 0 !important;
+}
+
+/* Subtitle */
+h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Image Row */
+.image-row {
+    display: flex !important;
+    justify-content: center !important;
+    gap: 20px !important;
+    flex-wrap: wrap !important;
+    margin: 20px !important;
+}
+
+/* Image Container */
+.image-container3 {
+    width: 300px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    margin-right: 20px;
+
+}
+.image-container3:hover {
+    transform: translateY(-5px) !important;
+}
+
+.hoverable-image, .hover2-image, .hover3-image, .hover4-image, .hover5-image, .hover6-image {
+    width: 100% !important; /* Ensure image is centered without stretching */
+    max-width: 100%;
+    height: auto !important;
+    display: block !important;
+    margin: 0 auto !important; /* Center the image */
+    transition: transform 5s !important;
+}
+
+.hoverable-image:hover, .hover2-image:hover, .hover3-image:hover, .hover4-image:hover, .hover5-image:hover, .hover6-image:hover {
+    transform: scale(1.05) !important;  
+}
+
+.description {
+    padding: 15px;
+    font-size: 1rem !important;
+    color: #555;
+}
+
+.description a {
+    text-decoration: none;
+    color: #2980b9;
+    font-weight: bold;
+}
+
+.description a:hover {
+    color: #3498db;
+}
